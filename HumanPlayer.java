@@ -6,11 +6,12 @@ import java.util.Scanner;
  * and returns their move.
  */
 
-public class HumanPlayer implements RPSPlayable {
+public class HumanPlayer extends PlayingEntity {
 
     private Scanner scanner;
 
     public HumanPlayer(Scanner scanner) {
+        super();
         this.scanner = scanner;
     }
 

@@ -4,9 +4,10 @@ import java.util.Random;
 /**
  * Creates the class to represent the computer player entity
  */
-public class ComputerPlayer implements RPSPlayable {
+public class ComputerPlayer extends PlayingEntity {
 
     public ComputerPlayer() {
+        super();
     }
 
     /**
