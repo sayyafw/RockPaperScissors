@@ -40,9 +40,4 @@ public class HumanPlayer implements RPSPlayable {
         System.out.println("You played " + move);
         return move;
     }
-
-
-
-
-
 }
